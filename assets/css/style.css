@@ -4,17 +4,70 @@
 }
 
 #divs-container{
-    background-color: aquamarine;
+    background-image: url(../images/resizedmalemassage.jpeg);
+    background-repeat: no-repeat;
     height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+
+   
+    
+   
+   
+    
 
 }
 
 .divs {
     background-color: blueviolet;
-    color: #fff;
-    width: 15rem;
-    height: 30rem;
+    color: #ffffff;
+    width: 175px;
+    height: 175px;
+    margin: 0 auto;
+    opacity: .5;
+
+   
         
+}
+
+
+.div-1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    position: relative;
+    right: 35%;
+    top: 100px;
+    background-color: black;
+    
+    
+}
+
+.div-2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    position: relative;
+    left: 35%;
+    top: 100px;
+    background-color: rgb(36, 17, 244);
+    
+}
+
+.div-3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    position: relative;
+    right: 35%;
+    top: 350px;
+    background-color: #148510;
+}
+
+.div-4 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    position: relative;
+    background-color:#bc98d1;
+    top: 350px;
+    left: 35%;
+
 }
